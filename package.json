@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "lint": "standard",
-    "lint-fix": "standard --fix",
+    "lint:fix": "standard --fix",
     "test": "vitest",
     "test:ci": "vitest run",
     "test:ui": "vitest --ui",
