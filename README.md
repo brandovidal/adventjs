@@ -32,11 +32,9 @@ pnpm test:ui 2023/day01
 
 ## 🚀 Challenges 🎮
 
-- [2023](./apps/2023/README.md)
-
-| Year | Name                          | Challenges                                            |
-| ---- | ----------------------------- | ------------------------------------------------ |
-| 2023 | [Intro](./apps/2023/README.md) | [Web](https://adventjs.dev/#retos) |
+| Year | Solutions                      | Challenges                         |
+| ---- | ------------------------------ | ---------------------------------- |
+| 2023 | [Guide](./apps/2023/README.md) | [Web](https://adventjs.dev/#retos) |
 
 ## 💯 Acknowledgements
 
