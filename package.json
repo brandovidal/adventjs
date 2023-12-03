@@ -1,0 +1,41 @@
+{
+  "name": "adventjs",
+  "version": "1.0.0",
+  "description": "Solutions to AdventJS challenges",
+  "main": "index.js",
+  "scripts": {
+    "lint": "standard",
+    "lint-fix": "standard --fix",
+    "test": "vitest",
+    "test:ui": "vitest --ui",
+    "prepare": "husky install"
+  },
+  "devDependencies": {
+    "@vitest/ui": "0.34.6",
+    "husky": "8.0.3",
+    "lint-staged": "15.1.0",
+    "standard": "17.1.0",
+    "vite-tsconfig-paths": "4.2.1",
+    "vitest": "0.34.6"
+  },
+  "lint-staged": {
+    "*.js": "standard"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/brandovidal/adventjs.git"
+  },
+  "keywords": [
+    "adventjs",
+    "solution",
+    "challengues",
+    "midudev"
+  ],
+  "type": "module",
+  "author": "Brando Vidal",
+  "license": "MIT",
+  "homepage": "https://github.com/brandovidal/adventjs#readme",
+  "bugs": {
+    "url": "https://github.com/brandovidal/adventjs/issues"
+  }
+}

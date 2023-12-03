@@ -1,0 +1,10 @@
+{
+  "compilerOptions": {
+    "baseUrl": "apps",
+    "checkJs": true,
+    "module": "NodeNext",
+    "target": "ESNext"
+  },
+  "include": ["apps"],
+  "exclude": ["node_modules", "README.md"]
+}
