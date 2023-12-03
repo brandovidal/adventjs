@@ -32,6 +32,7 @@ pnpm test:ui 2023/day01
 | Day | Name                                          | Rules                                           | Tests                          | Code                     |
 | --- | --------------------------------------------- | ----------------------------------------------- | ------------------------------ | ------------------------ |
 | 1   | [🎁 First gift repeated!!](./day01/README.md) | [rules](https://adventjs.dev/challenges/2023/1) | [tests](./day01/index.test.js) | [code](./day01/index.js) |
+| 1   | [🏭 We start the factory](./day02/README.md) | [rules](https://adventjs.dev/challenges/2023/2) | [tests](./day02/index.test.js) | [code](./day02/index.js) |
 
 ## 💯 Acknowledgements
 

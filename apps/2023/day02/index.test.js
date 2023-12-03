@@ -22,7 +22,7 @@ const cases = [
   }
 ]
 
-describe('Day 01 - AdventJS', () => {
+describe('Day 02 - AdventJS', () => {
   test.each(cases)('$title', ({ gifts, materials, expected }) => {
     expect(manufacture(gifts, materials)).toEqual(expected)
   })
