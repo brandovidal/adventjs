@@ -1,5 +1,4 @@
 import { describe, expect, test } from 'vitest'
-
 import findFirstRepeated from './index.js'
 
 const cases = [

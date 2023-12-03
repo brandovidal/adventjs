@@ -1,4 +1,4 @@
-# Automating Christmas gift wrapping!
+# 🎁 First gift repeated!!
 
 ### Solution
 
@@ -17,28 +17,28 @@ export default function findFirstRepeated (gifts) {
 ### Test
 
 ```javascript
+import { describe, expect, test } from 'vitest'
 import findFirstRepeated from './index.js'
-import { test, expect } from 'vitest'
 
 const cases = [
   {
-    title: 'find first repeated',
+    title: 'Should return the first repeated number',
     collection: [2, 1, 3, 5, 3, 2],
-    expected: ['*****\n*cat*\n*****', '******\n*game*\n******', '*******\n*socks*\n*******']
+    expected: 3
   },
   {
-    title: 'number is not repeated',
+    title: 'Should return -1, there is no repeated number',
     collection: [1, 2, 3, 4],
-    expected: ['******\n*midu*\n******']
+    expected: -1
   },
   {
-    title: 'return empty array',
+    title: 'Should return -1, list number is empty',
     collection: [],
-    expected: []
+    expected: -1
   }
 ]
 
-describe('Day 1 - AdventJS challengue', () => {
+describe('Day 01 - AdventJS', () => {
   test.each(cases)('$title', ({ collection, expected }) => {
     expect(findFirstRepeated(collection)).toEqual(expected)
   })

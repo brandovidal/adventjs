@@ -2,4 +2,5 @@
 . "$(dirname -- "$0")/_/husky.sh"
 
 pnpm run lint-fix
-pnpm run test
+pnpm run test related
+pnpm lint-staged
